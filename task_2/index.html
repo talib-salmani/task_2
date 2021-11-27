@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salmani Club</title>
+</head> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+<style>
+    body {
+        font-family: 'Roboto Slab', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/BackGroundImage.jpg');
+        background-size: cover;
+        /* filter: blur(1);
+        opacity: .3;
+        z-index: -1; */
+    }
+
+    .logo {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .logo img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .logo div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 29px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(255, 174, 0);
+    }
+
+    .submit_button {
+        font-family: 'Roboto Slab', serif;
+        margin: 0px 9px;
+        background-color:  lightgrey;
+        padding: 4px 14px;
+        border: 2px solid white;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .Email{
+    font-family: 'Roboto Slab', serif;
+        margin: 0px 9px;
+        background-color:   lightgrey;
+        padding: 4px 14px;
+        border: 2px solid white;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer; 
+    }
+    .submit_button:hover {
+        background-color: rgb(175, 172, 172);
+    }
+    .Email:hover {
+        background-color:  rgb(175, 172, 172);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 19px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .group_input_fields input {
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        display: block;
+        width: 423px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 3px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    .allContainer{
+        display: flex;
+    }
+    #color_1{
+    color: goldenrod;
+    font-size: 22px;
+    }
+    #color_2{
+    color: goldenrod;
+    font-size: 22px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="logo">
+            <img src="image/logo.jpg" alt="">
+            <div>Salmani Club</div>
+        </div>
+        <!-- Navigation Menu -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">instructor</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Need Help</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="submit_button">Call Us Now</button>
+            <button class="Email">Email Us</button>
+        </div>
+    </header>
+    <marquee width="100%" direction="left" height="50px">
+        <font id="color_1">Welcome Salmani Club</font> <font id="color_2"> To keep the body in good health is a duty otherwise we shall not be able to keep our mind strong and clear.</font>
+        </marquee>
+    <div class="container">
+        <h1>Join the best gym of Lucknow now</h1>
+        <form action="noaction.php">
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="group_input_fields">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+           
+            <button class="submit_button">Submit</button>
+        </form>
+    </div>
+    <div class="continer-2">
+      
+    </div>
+  
+</body>
+
+</html>
